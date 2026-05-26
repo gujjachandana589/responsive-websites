@@ -1,0 +1,85 @@
+body {
+    background-color: #eef2f7;
+    font-family: Arial, sans-serif;
+    color: #2f3a4a;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 900px;
+    margin: 40px auto;
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 16px;
+    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.08);
+}
+
+.main-title {
+    text-align: center;
+    color: #1f427a;
+    margin-bottom: 8px;
+}
+
+.section {
+    margin-top: 28px;
+}
+
+h2 {
+    color: #5b2d90;
+    margin-bottom: 12px;
+}
+
+p,
+li {
+    font-size: 18px;
+    line-height: 1.7;
+    color: #3b4152;
+}
+
+ul {
+    list-style-type: square;
+    margin-left: 20px;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #d1d8e0;
+    margin: 24px 0;
+}
+
+.concept-grid {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.concept-card {
+    flex: 1 1 250px;
+    background: #f9fbff;
+    border: 1px solid #d8e1ff;
+    padding: 18px;
+    border-radius: 12px;
+}
+
+.concept-card h3 {
+    margin-top: 0;
+    color: #1b365f;
+}
+
+.code {
+    display: inline-block;
+    background: #e8ecff;
+    color: #1f3d7a;
+    padding: 3px 6px;
+    border-radius: 5px;
+    font-family: "Courier New", monospace;
+}
+
+.footer-note {
+    margin-top: 30px;
+    padding: 14px 18px;
+    background: #f8f8ff;
+    border-left: 4px solid #5b2d90;
+    border-radius: 10px;
+}
